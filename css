@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+.exercise {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-text {
+    color: #0400f5;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #ff0101;
+}
+
+.solid-button {
+    background-color: #7700ff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.solid-button:hover {
+    background-color: #00ff6a;
+}
+
+.gradient-button {
+    background: linear-gradient(to right, #eeff00, #ffffff);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to right, #2980b9, #1f618d);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box {
+    width: 300px;
+    height: 100px;
+    background-color: #00f7ff;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+.custom-list li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.icon {
+    color: #f31212;
+    font-size: 24px;
+}
+
+.styled-link {
+    color: #2600ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.styled-link:hover {
+    color: #fffb00;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e270ff;
+    padding: 20px 0;
+}
+
+nav a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #080808;
+}
+
+form {
+    width: 300px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff9100;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a200ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #27ae60;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+}
+
